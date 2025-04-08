@@ -32,7 +32,7 @@ public class SortCSVFile {
 
             System.out.println("Top 5 Highest-Paid Employees:");
             System.out.println("----------------------------------");
-            System.out.print("Name" + "Department" + "Salary");
+            System.out.println("Name " + "Department " + "Salary");
 
             for (int i = 0; i < Math.min(5, employeeList.size()); i++) {
                 Employee emp = employeeList.get(i);
