@@ -35,7 +35,7 @@ public class SearchByName {
             }
 
             if(!found){
-                System.out.println("Employee " + searchName + "not found");
+                System.out.println("Employee " + searchName + " not found");
             }
         }catch (IOException e){
             e.printStackTrace();
